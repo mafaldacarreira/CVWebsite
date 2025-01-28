@@ -1,0 +1,86 @@
+.portrait {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#hero {
+    background: rgb(255,190,152);
+    background: radial-gradient(circle, rgba(255,190,152,1) 0%, rgba(141,11,65,1) 100%);
+
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    color: #1a1221;
+    padding-top: 25px;
+}
+
+.sub-header {
+    color:#a23557;
+}
+
+.line {
+    border-width: 2px;
+    color: #8d0b41;
+}
+
+.description {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.text {
+    margin-left: 3px;
+}
+
+h4 {
+    font-size: large;
+}
+
+.container.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 2fr;
+    height: 200px;
+    text-align: center;
+    background: rgb(137,13,68);
+    background: linear-gradient(0deg, rgba(137,13,68,1) 0%, rgba(237,173,143,1) 100%);
+}
+
+.footer {
+    margin-top: 70px;
+    background: rgb(137,13,68);
+    background: linear-gradient(0deg, rgba(137,13,68,1) 0%, rgba(237,173,143,1) 100%);
+}
+
+.contact {
+    grid-column: span 3;
+    padding: 15px;
+}
+
+.container.contact h3 {
+    color: white;
+} 
+
+a {
+    color: black;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+.contact-text {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+
+
+
+
